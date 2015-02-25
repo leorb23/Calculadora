@@ -1,0 +1,42 @@
+#panel
+{
+	margin-left: 20px;
+}
+
+#numeros
+{
+	margin-left: 37px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.botones
+{
+	margin-right: 20px;
+}
+
+#operadores
+{
+	margin-left: -142px;
+	margin-bottom: 10px;
+}
+
+.operaciones
+{
+	margin-right: 21px;
+}
+
+#operadores_secundarios
+{
+	margin-left: 30px;
+}
+
+.operadores_2
+{
+	margin-right: 13px;
+}
+
+#res
+{
+	margin-left: 170px;
+}
