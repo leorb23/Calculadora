@@ -70,10 +70,35 @@ function raizCuadrada()
     numeros = Math.sqrt(numeros) //resolver raíz cuadrada.
     document.getElementById("resultado").value = numeros;
 }
+
 function potencia()
 {
 	var exponente = 2;
 	var numeros = document.getElementById("resultado").value;
 	numeros = Math.pow(numeros,2); 
 	document.getElementById("resultado").value = numeros;
+}
+
+function sen()
+{
+	var numeros = document.getElementById("resultado").value;
+	numeros = Math.sin(numeros); 
+	document.getElementById("resultado").value = numeros;
+
+}
+
+function cos()
+{
+	var numeros = document.getElementById("resultado").value;
+	numeros = Math.cos(numeros); 
+	document.getElementById("resultado").value = numeros;
+
+}
+
+function tan()
+{
+	var numeros = document.getElementById("resultado").value;
+	numeros = Math.tan(numeros); 
+	document.getElementById("resultado").value = numeros;
+
 }

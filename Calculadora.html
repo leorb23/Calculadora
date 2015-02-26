@@ -10,7 +10,7 @@
 	<div id="contenedor">
 			<center><h1>Calculadora</h1></center>
 				<div id="panel" align="center">
-					<input type="Text" id="resultado" name="resultado" size="69" style="text-align:right" onkeypress="return soloNumeros(event)" readonly = "true">
+					<input type="Text" id="resultado" name="resultado" size="69" style="text-align:right"  readonly = "true">
 				</div>
 				<div id="numeros" align="center">
 					<input class = "botones" type="button" id="btn1" value="0" onclick="escribir(value)">
@@ -33,9 +33,9 @@
 					<input class="operaciones" type="button" id="bto6" value="^2" onclick="potencia()">
 				</div>
 				<div id="operadores_secundarios" align="center">
-					<input class="operadores_2" type="button" id="sen" value="Sen" onclick="escribir(value)">
-					<input class="operadores_2" type="button" id="cos" value="Cos" onclick="escribir(value)">
-					<input class="operadores_2" type="button" id="tan" value="Tan" onclick="escribir(value)">
+					<input class="operadores_2" type="button" id="sen" value="Sen" onclick="sen()">
+					<input class="operadores_2" type="button" id="cos" value="Cos" onclick="cos()">
+					<input class="operadores_2" type="button" id="tan" value="Tan" onclick="tan()">
 					<input class="operadores_2" type="button" id="ant" value="<-" onclick="eliminarAnterior()">
 					<input class="operadores_2" type="button" id="del" value="C" onclick="eliminarTodo()">
 					<input class="operadores_2" type="button" id="res" value="=" onclick="calcular()">
